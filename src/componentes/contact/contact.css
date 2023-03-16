@@ -1,0 +1,67 @@
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+border-radius: 10px;
+    padding: 12px;
+    color: black;
+}
+
+button{
+    border: none;
+}
+input{
+    width: 100%; 
+    box-shadow: 0 0 5px #b3b5b4;
+	padding: 1%;
+	border: 3px solid #001c62;
+    border-style: none;
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    color: black;
+}
+
+textarea{
+    box-shadow: 0 0 5px #b3b5b4;
+	padding: 2%;
+    border-style: none;
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+color: black;}
+
+    button{
+    box-shadow: 0 0 5px #020104;
+	padding: 2%;
+	border: 1px solid #fdf6f6;
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    }
+
+
+    @media screen and (min-width:200px) and (max-width:768px) {
+        .contacto{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            border: none;
+            padding: 16px;
+            color: black;
+        }
+        }

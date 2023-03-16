@@ -1,7 +1,6 @@
 import "./cards.css";
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
 import Button from 'react-bootstrap/esm/Button';
 import capriImg from "./capri.png";
 import skateStoreJs from "./skatestore-img.png";
@@ -9,7 +8,7 @@ import skateStoreRc from "./skatestore-img2.png";
 
 
 export default function Cards() {
-    const productos = [
+    const proyectos = [
         {
           nombre: "Capri",
           descripcion: "Capri was my first project. It`s about a fictional travel agency. It was made using HTML, SASS and Bootstrap.",
@@ -33,21 +32,18 @@ export default function Cards() {
         }
     ]
     return (
-        productos.map((producto)=>(
-              <div key={producto.nombre + producto.id}>
-              <Card className='card' style={{ width: '20rem', height: '28rem' }}>
-              <Card.Img className='imagenCard' variant="top" src={producto.img} />
+        proyectos.map((proyecto)=>(
+              <div key={proyecto.nombre + proyecto.id}>
+              <Card className='card' position="inherit" style={{ width: '20rem', height: '28rem' }}>
+              <Card.Img className='imagenCard' variant="top" src={proyecto.img} />
               <Card.Body> 
-              <Card.Title>{producto.nombre}</Card.Title>
+              <Card.Title>{proyecto.nombre}</Card.Title>
               <Card.Text>
-              {producto.descripcion}
+              {proyecto.descripcion}
               </Card.Text>
               </Card.Body>
-              <ListGroup className="list-group-flush">
-              <ListGroup.Item>{producto.precio}</ListGroup.Item>
-              </ListGroup>
               <Card.Body>
-              <a  href={producto.link} target="_blank"  rel="noreferrer"><Button id={producto.link}>Link</Button></a>
+              <a  href={proyecto.link} target="_blank"  rel="noreferrer"><Button id={proyecto.link}>Link</Button></a>
               </Card.Body>
             </Card>
         </div>

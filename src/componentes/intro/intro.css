@@ -110,7 +110,6 @@
   .wrapper ul li a:after{
     position: absolute;
     content: "";
-    background: #c2c1c3c9;
      /*background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);*/
     /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
     width: 100%;
@@ -126,7 +125,7 @@
     transform: scaleY(1);
   }
   .wrapper ul li a:hover{
-    color: #000000;
+    color: #8b0707;
   }
   input[type="checkbox"]{
     display: none;
@@ -161,7 +160,7 @@ font-family: 'Staatliches', cursive;
     font-family: 'Staatliches', cursive;
   }
 .icon-skills{
-    width: 70px;
+    width: 60px;
     margin: 10px;
 }
 
@@ -199,6 +198,7 @@ font-family: 'Staatliches', cursive;
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
+  position: inherit;
   }
   
   
