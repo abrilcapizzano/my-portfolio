@@ -43,7 +43,7 @@ export default function Cards() {
               </Card.Text>
               </Card.Body>
               <Card.Body>
-              <a  href={proyecto.link} target="_blank"  rel="noreferrer"><Button id={proyecto.link}>Go to the project</Button></a>
+              <a  href={proyecto.link} target="_blank"  rel="noreferrer"><Button>Go to the project</Button></a>
               </Card.Body>
             </Card>
         </div>
