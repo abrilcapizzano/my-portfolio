@@ -43,7 +43,7 @@ export default function Cards() {
               </Card.Text>
               </Card.Body>
               <Card.Body>
-              <a  href={proyecto.link} target="_blank"  rel="noreferrer"><Button>Go to the project</Button></a>
+              <Button onClick={() => {window.open(proyecto.link, '_blank'); }}>Go to the project</Button>
               </Card.Body>
             </Card>
         </div>
