@@ -1,7 +1,7 @@
 import "./cards.css";
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/esm/Button';
+import Button from 'react-bootstrap/Button';
 import capriImg from "./capri.png";
 import skateStoreJs from "./skatestore-img.png";
 import skateStoreRc from "./skatestore-img2.png";
@@ -49,4 +49,5 @@ export default function Cards() {
         </div>
         ))
         );
+        
 }
