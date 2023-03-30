@@ -26,7 +26,7 @@ export default function Cards() {
         {
           nombre: "Skate Store React",
           descripcion: "This project was made on React. It's a fictional e-commerce using react.",
-          link: "https://proyecto-react-pied.vercel.app/",
+          link: "https://chat.openai.com/chat",
           img: skateStoreRc,
           id: 3
         }
