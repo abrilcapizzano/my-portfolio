@@ -43,7 +43,7 @@ export default function Cards() {
               </Card.Text>
               </Card.Body>
               <Card.Body>
-              <button onClick={() => { console.log('Button clicked'); }}>Go to the project</button>
+              <Button onClick={() => { console.log('Button clicked'); window.open(proyecto.link, '_blank'); }}>Go to the project</Button>
               </Card.Body>
             </Card>
         </div>
