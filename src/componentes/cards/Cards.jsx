@@ -1,7 +1,6 @@
 import "./cards.css";
 import React from 'react';
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+import {Card, Button} from 'react-bootstrap';
 import capriImg from "./capri.png";
 import skateStoreJs from "./skatestore-img.png";
 import skateStoreRc from "./skatestore-img2.png";
@@ -19,7 +18,7 @@ export default function Cards() {
         {
           nombre: "Skate Store JavaScript",
           descripcion: "This was my second project. I created a fictional e-commerce. It was made using mostly JavaScript and Bootstrap.",
-          link: "https://skatestore.vercel.app/",
+          link: "https://skatestore.vercel.app",
           img: skateStoreJs,
           id: 2
         },
@@ -43,7 +42,7 @@ export default function Cards() {
               </Card.Text>
               </Card.Body>
               <Card.Body>
-              <a  href={proyecto.link} target="_blank"  rel="noreferrer"><Button>Go to the project</Button></a>
+              <a href={proyecto.link} target="_blank" rel="noreferrer"><Button variant="primary">Go to the project</Button></a>
               </Card.Body>
             </Card>
         </div>
