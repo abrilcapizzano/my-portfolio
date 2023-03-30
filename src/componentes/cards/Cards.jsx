@@ -26,7 +26,7 @@ export default function Cards() {
         {
           nombre: "Skate Store React",
           descripcion: "This project was made on React. It's a fictional e-commerce using react.",
-          link: "https://chat.openai.com/chat",
+          link: "https://proyecto-react-pied.vercel.app/",
           img: skateStoreRc,
           id: 3
         }
@@ -43,7 +43,7 @@ export default function Cards() {
               </Card.Text>
               </Card.Body>
               <Card.Body>
-              <Button onClick={() => { window.location.href = proyecto.link }}>Go to the project</Button>
+              <Button onClick={() => { console.log('Button clicked'); window.open(proyecto.link, '_blank'); }}>Go to the project</Button>
               </Card.Body>
             </Card>
         </div>
