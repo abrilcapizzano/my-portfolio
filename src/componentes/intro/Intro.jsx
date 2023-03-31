@@ -7,24 +7,12 @@ import htmlicon from "./html-icon.png";
 import jsicon from "./js-icon.png";
 import reacticon from "./react-icon.png";
 import sassicon from "./sass-icon.png";
-import { Link } from "react-router-dom";
+
 
 function Intro () {
     return(  
         <div className="contenido">
-<input type="checkbox" id="active"/>
-    <label htmlFor="active" className="menu-btn"><span></span></label>
-    <label htmlFor="active" className="close"></label>
-
-<div className="wrapper">
-<ul>
-<li><Link to="/">About Me</Link></li>
-<li><Link to="/contact">Contact</Link></li>
-</ul>
-</div>
-
-
-<div >
+<div>
 <img src={icon} className="foto-cv" alt="Foto intro" />
 <p className="name">
 Abril Capizzano</p>

@@ -1,6 +1,7 @@
 import "./cards.css";
 import React from 'react';
-import {Card, Button} from 'react-bootstrap';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/esm/Button';
 import capriImg from "./capri.png";
 import skateStoreJs from "./skatestore-img.png";
 import skateStoreRc from "./skatestore-img2.png";
@@ -18,14 +19,14 @@ export default function Cards() {
         {
           nombre: "Skate Store JavaScript",
           descripcion: "This was my second project. I created a fictional e-commerce. It was made using mostly JavaScript and Bootstrap.",
-          link: "https://skatestore.vercel.app",
+          link: "https://skatestore.vercel.app/",
           img: skateStoreJs,
           id: 2
         },
         {
           nombre: "Skate Store React",
           descripcion: "This project was made on React. It's a fictional e-commerce using react.",
-          link: "https://proyecto-react-pied.vercel.app/",
+          link: "https://proyecto-react-pied.vercel.app",
           img: skateStoreRc,
           id: 3
         }
@@ -42,7 +43,7 @@ export default function Cards() {
               </Card.Text>
               </Card.Body>
               <Card.Body>
-              <a href={proyecto.link} target="_blank" rel="noreferrer"><Button variant="primary">Go to the project</Button></a>
+              <Button variant="dark" onClick={() => { window.open(proyecto.link, '_blank'); }}>Go to the project</Button>
               </Card.Body>
             </Card>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./contact.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import wpp from "./whatsapp.svg";
+import wpp from "./WhatsApp.svg";
 import { useForm, ValidationError } from '@formspree/react';
 function Contacto() {
     const [state, handleSubmit] = useForm("mjvdozwr");
@@ -10,24 +10,25 @@ function Contacto() {
     }
   return (
     <div className="contacto">
-        <h2>Feel free to send me a message</h2>
+        <h2>Contact me by WhatsApp or email</h2>
         <a href="https://wa.me/541124682268/" target="_blank" rel="noreferrer">
-<img src={wpp} className="icon" alt="Whatsapp Logo" />
+        <img src={wpp} className="icon" alt="Whatsapp Logo" />
  </a>
+
  <form onSubmit={handleSubmit}>
-      <label htmlFor="email">
-      </label>
+  <label className="label-input">Type your Email</label>
       <input
         id="email"
         type="email" 
         name="email"
-        placeholder="Type your email"
+        placeholder="Your email address"
       />
       <ValidationError 
         prefix="Email" 
         field="email"
         errors={state.errors}
       />
+        <label className="label-input">Leave your message</label>
       <textarea
         id="message"
         name="message"

@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -46,4 +47,11 @@
 .dark-mode {
   --background-color: #333; /* dark mode background color */
   --text-color: #f0f0f0; /* dark mode text color */
+}
+
+.p-nav{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
 }

@@ -4,49 +4,49 @@
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+    margin: 24px;
 }
-form{
+form {
     display: flex;
     flex-direction: column;
-    width: 40%;
-border-radius: 10px;
+    width: 50%;
+    border-radius: 10px;
     color: black;
-}
-
-button{
-    border: none;
-}
-input{
-    width: 100%; 
-    box-shadow: 0 0 5px #b3b5b4;
-	padding: 1%;
-	border: 3px solid #001c62;
+    border: 2px;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Staatliches', cursive;
+  }
+  
+  button {
     border-style: none;
-    box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
+    border-radius: 2px;
+    height: 30px;
+  }
+  
+  input {
+    border-style: none;
+    width: 100%;
+    padding: 1%;
     color: black;
-}
-
-textarea{
-    box-shadow: 0 0 5px #b3b5b4;
-	padding: 2%;
+  }
+  
+  textarea {
+    padding: 2%;
     border-style: none;
-    box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-color: black;}
+    color: black;
+  }
 
-    button{
-    box-shadow: 0 0 5px #020104;
-	padding: 2%;
-	border: 1px solid #fdf6f6;
-    box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-    }
+  .label-input{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Staatliches', cursive;
+  }
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Staatliches', cursive;
 
-
+}
     @media screen and (min-width:200px) and (max-width:768px) {
         .contacto{
             display: flex;
