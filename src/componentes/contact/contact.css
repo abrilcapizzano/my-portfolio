@@ -45,7 +45,7 @@ form {
 h2{
     font-family: 'Poppins', sans-serif;
     font-family: 'Staatliches', cursive;
-
+    margin: 20px;
 }
     @media screen and (min-width:200px) and (max-width:768px) {
         .contacto{
