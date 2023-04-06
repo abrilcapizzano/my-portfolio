@@ -18,7 +18,7 @@ export default function Cards() {
         },
         {
           nombre: "Skate Store JavaScript",
-          descripcion: "This was my second project. I created a fictional e-commerce. It was made using mostly JavaScript and Bootstrap.",
+          descripcion: "This was my second project. I created a fictional e-commerce. It was made using mostly JavaScript and Bootstrap. Note: This project is not responsive.",
           link: "https://skatestore.vercel.app/",
           img: skateStoreJs,
           id: 2

@@ -1,0 +1,40 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Staatliches', cursive;
+    background-color: #282c34;
+    color: white;
+    }
+    .redes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+    }
+    .icon{
+        margin: 6px;
+        width: 40px;
+    }
+        .p-footer{
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Staatliches', cursive;
+        font-size: 28px;
+    }
+    a{
+        color: rgb(255, 244, 244);
+    }
+    @media screen and (min-width:200px) and (max-width:768px) {
+                footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-around;
+                }
+                }
+            
+    

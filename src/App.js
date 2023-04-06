@@ -5,6 +5,7 @@ import Contact from "./componentes/contact/Contact.jsx"
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Footer from "./componentes/footer/Footer.jsx"
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,8 @@ function App() {
 <Route path='/' element={<Intro/> }/>
 <Route path='/contact' element={<Contact/> }/>
  </Routes>
+
+ <Footer />
     </div>
   );
 }
