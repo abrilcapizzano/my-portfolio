@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: Roboto, Helvetica, Arial, sans-serif;
-
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-=======
 html, body {
   height: 100%;
   margin: 0;
@@ -39,4 +22,3 @@ footer {
   font-family: 'Poppins', sans-serif;
   margin-top: auto;  /* Esto empuja el footer hacia el fondo */
 }
->>>>>>> 3000279 (Actualizando proyecto)
