@@ -11,7 +11,7 @@ export default function Cards() {
     {
       nombre: "Capri",
       descripcion:
-        "Capri was my first project. It`s about a fictional travel agency. It was made using HTML, SASS and Bootstrap.",
+        "Capri was my first project, a fictional travel agency website built using HTML, SASS, and Bootstrap.",
       link: "https://abrilcapizzano.github.io/proyecto-capri/",
       img: capriImg,
       id: 1,
@@ -19,7 +19,7 @@ export default function Cards() {
     {
       nombre: "Skate Store JavaScript",
       descripcion:
-        "This was my second project. I created a fictional e-commerce. It was made using mostly JavaScript and Bootstrap. Note: This project is not responsive.",
+        "This was my second project: a fictional e-commerce built primarily with JavaScript and styled using Bootstrap. Note: The project is not fully responsive.",
       link: "https://skatestore.vercel.app/",
       img: skateStoreJs,
       id: 2,
@@ -27,7 +27,7 @@ export default function Cards() {
     {
       nombre: "Skate Store React",
       descripcion:
-        "This project was made on React. It's a fictional e-commerce using react.",
+        "This project, built with React, is a fictional e-commerce platform showcasing modern design and dynamic functionality.",
       link: "https://proyecto-react-pied.vercel.app",
       img: skateStoreRc,
       id: 3,
@@ -35,7 +35,7 @@ export default function Cards() {
     {
       nombre: "Casas Felicitas Consultoria Imobiliaria",
       descripcion:
-        "A sleek contact and gallery page for a real estate consultant, featuring property photos and a responsive design for seamless client interaction. k",
+        "A sleek contact and gallery page for a real estate consultant, featuring property photos and a responsive design for seamless client interaction.",
       link: "https://casas-felicitas.vercel.app/#",
       img: casasFelicitas,
       id: 4,
@@ -55,7 +55,12 @@ export default function Cards() {
         </Card.Body>
         <Card.Body>
           <Button
-            className="boton"
+            style={{
+              display: "inline-flex",
+              justifyContent: "center",
+              alignItems: "center",
+              width: "100%",
+            }}
             variant="dark"
             onClick={() => {
               window.open(proyecto.link, "_blank");

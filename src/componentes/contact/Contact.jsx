@@ -10,9 +10,9 @@ function Contacto() {
   }
   return (
     <div className="contacto">
-      <h2>Contact me by WhatsApp</h2>
+      <h2>Feel free to reach out to me on WhatsApp!</h2>
       <a href="https://wa.me/541124682268/" target="_blank" rel="noreferrer">
-        <img src={wpp} className="icon" alt="Whatsapp Logo" />
+        <img src={wpp} className="icon-wpp" alt="Whatsapp Logo" />
       </a>
 
       <form onSubmit={handleSubmit}>

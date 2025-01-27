@@ -1,3 +1,12 @@
 .card{
     margin: 10px;
 }
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Para asegurar que el texto esté centrado */
+    padding: 10px 20px; /* Ajusta el tamaño del botón si es necesario */
+  }
+  

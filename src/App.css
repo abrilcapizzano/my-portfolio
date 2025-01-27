@@ -1,31 +1,7 @@
-<<<<<<< HEAD
-
 .App {
   text-align: center;
 }
 
-=======
-html, body {
-  height: 100%;
-  margin: 0;
-}
-.App {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
-.main-content {
-  flex: 1; /* Permite que el contenido ocupe el espacio restante */
-}
-footer {
-  background-color: #282c34;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-  font-family: 'Poppins', sans-serif;
-}
->>>>>>> 3000279 (Actualizando proyecto)
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -61,7 +37,6 @@ footer {
   }
 }
 
-
 :root {
   --background-color: #f0f0f0; /* light mode background color */
   --text-color: #333; /* light mode text color */
@@ -72,9 +47,9 @@ footer {
   --text-color: #f0f0f0; /* dark mode text color */
 }
 
-.p-nav{
+.p-nav {
   color: white;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Staatliches', cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Staatliches", cursive;
   font-size: 20px;
 }

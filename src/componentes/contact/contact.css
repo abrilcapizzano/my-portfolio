@@ -1,66 +1,64 @@
-.contacto{
+.contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 140px;
+}
+.icon-wpp {
+  width: 80px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  border-radius: 10px;
+  color: black;
+  border: 2px;
+  margin: 40px;
+  font-family: "Staatliches", cursive;
+}
+
+button {
+  border-style: none;
+  border-radius: 2px;
+  height: 40px;
+}
+
+input {
+  width: 100%;
+  padding: 1%;
+}
+
+textarea {
+  padding: 2%;
+  margin: 20px;
+}
+
+.label-input {
+  font-size: 24px;
+  font-family: "Staatliches", cursive;
+  margin: 20px;
+}
+h2 {
+  font-family: "Staatliches", cursive;
+  margin: 24px;
+}
+@media screen and (min-width: 200px) and (max-width: 768px) {
+  .contacto {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    margin: 24px;
-}
-form {
+    margin: 20px;
+  }
+  form {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    border-radius: 10px;
-    color: black;
-    border: 2px;
-    margin: 10px;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Staatliches', cursive;
-  }
-  
-  button {
-    border-style: none;
-    border-radius: 2px;
-    height: 30px;
-  }
-  
-  input {
-    border-style: none;
     width: 100%;
-    padding: 1%;
+    border: none;
     color: black;
   }
-  
-  textarea {
-    padding: 2%;
-    border-style: none;
-    color: black;
-  }
-
-  .label-input{
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Staatliches', cursive;
-  }
-h2{
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Staatliches', cursive;
-    margin: 20px;
 }
-    @media screen and (min-width:200px) and (max-width:768px) {
-        .contacto{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-content: center;
-            flex-wrap: wrap;
-        }
-        form{
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            border: none;
-            padding: 16px;
-            color: black;
-        }
-        }
