@@ -5,7 +5,7 @@ import Button from "react-bootstrap/esm/Button";
 import capriImg from "./capri.png";
 import skateStoreJs from "./skatestore-img.png";
 import skateStoreRc from "./skatestore-img2.png";
-
+import casasFelicitas from "./casas-felicitas.png";
 export default function Cards() {
   const proyectos = [
     {
@@ -55,6 +55,7 @@ export default function Cards() {
         </Card.Body>
         <Card.Body>
           <Button
+            className="boton"
             variant="dark"
             onClick={() => {
               window.open(proyecto.link, "_blank");
