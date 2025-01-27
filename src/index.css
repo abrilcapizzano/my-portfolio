@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,3 +14,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+=======
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/* Contenedor principal de la página que ocupará el espacio disponible */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/* El footer se empujará al fondo si el contenido es pequeño */
+footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-family: 'Poppins', sans-serif;
+  margin-top: auto;  /* Esto empuja el footer hacia el fondo */
+}
+>>>>>>> 3000279 (Actualizando proyecto)

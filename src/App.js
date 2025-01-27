@@ -1,5 +1,9 @@
 import './App.css';
+<<<<<<< HEAD
 import {Route, Routes} from "react-router-dom";
+=======
+import { Route, Routes } from "react-router-dom";
+>>>>>>> 3000279 (Actualizando proyecto)
 import Intro from './componentes/intro/Intro.jsx';
 import Contact from "./componentes/contact/Contact.jsx"
 import Container from 'react-bootstrap/Container';
@@ -10,7 +14,11 @@ function App() {
   return (
     <div className="App">
 
+<<<<<<< HEAD
 <Navbar className='navegador'bg="dark" variant="dark">
+=======
+      <Navbar className='navegador' bg="dark" variant="dark">
+>>>>>>> 3000279 (Actualizando proyecto)
         <Container>
           <Nav className="me-auto">
             <Nav.Link href="/"><p className='p-nav'>Intro</p></Nav.Link>
@@ -18,12 +26,23 @@ function App() {
           </Nav>
         </Container>
       </Navbar>
+<<<<<<< HEAD
 <Routes>
 <Route path='/' element={<Intro/> }/>
 <Route path='/contact' element={<Contact/> }/>
  </Routes>
 
  <Footer />
+=======
+      <div className="main-content">
+        <Routes>
+          <Route path="/" element={<Intro />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+
+      <Footer />
+>>>>>>> 3000279 (Actualizando proyecto)
     </div>
   );
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 footer{
     display: flex;
     flex-direction: row;
@@ -9,16 +10,36 @@ footer{
     background-color: #282c34;
     color: white;
     }
+=======
+footer {
+    display: flex;
+    justify-content: space-evenly; /* Distribuye los elementos de manera equitativa */
+    align-items: center; /* Centra los elementos verticalmente */
+    font-family: 'Poppins', sans-serif; /* Usa una sola fuente */
+    background-color: hsl(220, 13%, 18%);
+    color: white;
+    margin-top: 30%;
+}
+>>>>>>> 3000279 (Actualizando proyecto)
     .redes{
         display: flex;
         flex-direction: row;
         justify-content: center;
+<<<<<<< HEAD
         align-items: center;
+=======
+        align-items: flex-start;
+>>>>>>> 3000279 (Actualizando proyecto)
         background-color: transparent;
     }
     .icon{
         margin: 6px;
+<<<<<<< HEAD
         width: 40px;
+=======
+        width: 30px;
+
+>>>>>>> 3000279 (Actualizando proyecto)
     }
         .p-footer{
             font-family: 'Poppins', sans-serif;
