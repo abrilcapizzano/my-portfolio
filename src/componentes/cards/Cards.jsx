@@ -32,6 +32,14 @@ export default function Cards() {
       img: skateStoreRc,
       id: 3,
     },
+    {
+      nombre: "Casas Felicitas Consultoria Imobiliaria",
+      descripcion:
+        "A sleek contact and gallery page for a real estate consultant, featuring property photos and a responsive design for seamless client interaction. k",
+      link: "https://casas-felicitas.vercel.app/#",
+      img: casasFelicitas,
+      id: 4,
+    },
   ];
   return proyectos.map((proyecto) => (
     <div key={proyecto.nombre + proyecto.id}>
