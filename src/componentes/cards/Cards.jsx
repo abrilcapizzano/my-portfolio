@@ -3,7 +3,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/esm/Button";
 import capriImg from "./capri.png";
-import skateStoreJs from "./skatestore-img.png";
+import skateStoreJs from "./skatestore.png";
 import skateStoreRc from "./skatestore-img2.png";
 import casasFelicitas from "./casas-felicitas.png";
 export default function Cards() {
